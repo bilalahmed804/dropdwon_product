@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+.one{
+    width: 200px;
+    height: 200px;
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    margin: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.dropdwon_product {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdwon_product{
+  background-color: #4CAF50; 
+  color: white;
+  padding: 16px;
+  font-size: 16px; 
+  border: none; 
+  cursor: pointer;
+  margin-top: 20px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.dropdwon_product:hover{
+  background-color: #3e8e41;
+}
+
+button{
+    background-color: #4CAF50; 
+  color: white;
+  padding: 10px 18px;
+  font-size: 16px; 
+  border: none; 
+  cursor: pointer;
+  margin: 20px;
+  border-radius: 5px;
+}
